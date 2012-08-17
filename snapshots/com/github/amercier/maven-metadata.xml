@@ -4,7 +4,7 @@
     <plugin>
       <name>Selenese Maven Mojo</name>
       <prefix>selenese</prefix>
-      <artifactId>selenese</artifactId>
+      <artifactId>selenese-maven-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
