@@ -6,10 +6,9 @@ A Maven repository for my plugins
 
 ## Usage
 
-    <repositories>
-        <repository>
+    <pluginRepositories>
+        <pluginRepository>
             <id>amercier-snapshots</id>
-            <url>https://github.com/amercier/amercier-mvn-repo/raw/master/snapshots</url>
-        </repository>
-    </repositories>
-
+            <url>http://amercier.github.com/amercier-mvn-repo/snapshots</url>
+        </pluginRepository>
+    </pluginRepositories>
