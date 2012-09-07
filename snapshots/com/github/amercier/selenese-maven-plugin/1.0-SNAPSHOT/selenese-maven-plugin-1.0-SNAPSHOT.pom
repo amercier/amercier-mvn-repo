@@ -33,19 +33,39 @@
 	<!-- Plugin dependencies
 	======================================================================== -->
 	<dependencies>
+	
+		<!-- Maven - Ex: org.apache.maven.plugin.AbstractMojo -->
 		<dependency>
 			<groupId>org.apache.maven</groupId>
 			<artifactId>maven-plugin-api</artifactId>
 			<version>3.0.4</version>
 		</dependency>
+		
+		<!-- Apache Commons/IO - Ex: org.apache.commons.io.FileUtils -->
 		<dependency>
-			<groupId>org.openqa.selenium.client-drivers</groupId>
-			<artifactId>selenium-java-client-driver</artifactId>
-			<version>1.0-beta-1</version>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
 		</dependency>
+		
+		<!-- Apache jUnit - Ex: org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter -->
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant-junit</artifactId>
+			<version>1.8.4</version>
+		</dependency>
+		
+		<!-- Selenium - Ex: org.openqa.selenium.WebDriver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.25.0</version>
+		</dependency>
+		
 	</dependencies>
 	
 	<repositories>
+		<!-- OpenQA - needed by org.openqa.selenium.client-drivers -->
 		<repository>
 			<id>openqa-releases</id>
 			<url>http://nexus.openqa.org/content/repositories/releases</url>
@@ -58,26 +78,24 @@
 	
 	<!-- Distribution management
 	======================================================================== -->
+	<!-- 
 	<distributionManagement>
-		<!-- 
 		<repository>
 			<id>repo</id>
 			<url>https://raw.github.com/amercier/amercier-mvn-repo/master/releases</url>
 		</repository>
-		 -->
 		<snapshotRepository>
 			<id>snapshot-repo</id>
 			<url>https://raw.github.com/amercier/amercier-mvn-repo/master/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
+	 -->
 	
-	<!-- 
 	<scm>
 		<connection>scm:git:git@github.com:amercier/selenese-maven-plugin.git</connection>
 		<developerConnection>scm:git:git@amercier/selenese-maven-plugin.git</developerConnection>
 		<url>git@github.com:amercier/selenese-maven-plugin.git</url>
 	</scm>
-	 -->
 	
 	<!-- Build
 	======================================================================== -->
@@ -94,13 +112,41 @@
 					<target>1.5</target>
 				</configuration>
 			</plugin>
+		
+			<!-- Maven release -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
 			
+			<!-- Documentation diagrams generation -->
+			<plugin>
+				<groupId>com.github.jeluard</groupId>
+				<artifactId>maven-plantuml-plugin</artifactId>
+				<configuration>
+					<sourceFiles>
+						<directory>${basedir}</directory>
+						<includes>
+							<include>docs/**.plantuml</include>
+						</includes>
+					</sourceFiles>
+					<outputInSourceDirectory>true</outputInSourceDirectory>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+						
 		</plugins>
 
 
 		<pluginManagement>
 			<plugins>
-			
+
 				<!-- Eclipse M2E Plugin configuration -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
