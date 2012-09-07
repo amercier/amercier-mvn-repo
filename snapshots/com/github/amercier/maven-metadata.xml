@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>Selenese Maven Mojo</name>
+      <prefix>selenese</prefix>
+      <artifactId>selenese-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
