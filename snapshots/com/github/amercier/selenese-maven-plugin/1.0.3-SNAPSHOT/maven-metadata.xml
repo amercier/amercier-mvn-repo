@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.amercier</groupId>
+  <artifactId>selenese-maven-plugin</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20121130111020</lastUpdated>
+  </versioning>
+</metadata>

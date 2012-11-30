@@ -4,12 +4,13 @@
   <artifactId>selenese-maven-plugin</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
-    <latest>1.0.2-SNAPSHOT</latest>
+    <latest>1.0.3-SNAPSHOT</latest>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.0.1-SNAPSHOT</version>
       <version>1.0.2-SNAPSHOT</version>
+      <version>1.0.3-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20121127143649</lastUpdated>
+    <lastUpdated>20121130111019</lastUpdated>
   </versioning>
 </metadata>
