@@ -74,8 +74,8 @@
 			<groupId>net.jsourcerer.webdriver</groupId>
 			<artifactId>JSErrorCollector</artifactId>
 			<version>0.4</version>
-			<scope>compile</scope>
-			<optional>true</optional>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/JSErrorCollector-0.4.jar</systemPath>
 		</dependency>
 		
 	</dependencies>
@@ -91,27 +91,30 @@
 			<url>http://nexus.openqa.org/content/repositories/snapshots</url>
 		</repository>
 		
+	</repositories>
+
+	<pluginRepositories>
+	
+		<pluginRepository>
+			<id>onejar-maven-plugin.googlecode.com</id>
+			<url>http://onejar-maven-plugin.googlecode.com/svn/mavenrepo</url>
+		</pluginRepository>
+		
 		<!-- In-project repository -->
-		<repository>
+		<!-- 
+		<pluginRepository>
 			<id>repo</id>
 			<releases>
 				<enabled>true</enabled>
 				<checksumPolicy>ignore</checksumPolicy>
-				<updatePolicy>never</updatePolicy>
 			</releases>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
 			<url>file://${project.basedir}/repo</url>
-		</repository>
-		
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>onejar-maven-plugin.googlecode.com</id>
-			<url>http://onejar-maven-plugin.googlecode.com/svn/mavenrepo</url>
 		</pluginRepository>
+		 -->
+		
 	</pluginRepositories>
 	
 	<!-- Distribution management
