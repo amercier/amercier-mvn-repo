@@ -97,6 +97,7 @@
 			<releases>
 				<enabled>true</enabled>
 				<checksumPolicy>ignore</checksumPolicy>
+				<updatePolicy>never</updatePolicy>
 			</releases>
 			<snapshots>
 				<enabled>false</enabled>
@@ -156,7 +157,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 			</plugin>
 						
-			<!-- Documentation diagrams generation -->
+			<!-- Documentation diagrams generation --><!--
 			<plugin>
 				<groupId>com.github.jeluard</groupId>
 				<artifactId>maven-plantuml-plugin</artifactId>
@@ -176,7 +177,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 			
 			<!-- Inclusion of in-project repository JAR files -->
 			<!-- 
