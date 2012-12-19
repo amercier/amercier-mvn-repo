@@ -2,7 +2,6 @@
 <metadata>
   <groupId>com.github.amercier</groupId>
   <artifactId>selenese-maven-plugin</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <versioning>
     <latest>1.0.4-SNAPSHOT</latest>
     <versions>
@@ -12,6 +11,6 @@
       <version>1.0.3-SNAPSHOT</version>
       <version>1.0.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20121219203609</lastUpdated>
+    <lastUpdated>20121219132101</lastUpdated>
   </versioning>
 </metadata>

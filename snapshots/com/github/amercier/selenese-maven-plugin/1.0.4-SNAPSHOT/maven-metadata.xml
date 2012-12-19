@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata>
+<metadata modelVersion="1.1.0">
   <groupId>com.github.amercier</groupId>
   <artifactId>selenese-maven-plugin</artifactId>
   <version>1.0.4-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <buildNumber>25</buildNumber>
+      <timestamp>20121219.132100</timestamp>
+      <buildNumber>26</buildNumber>
     </snapshot>
-    <lastUpdated>20121219203609</lastUpdated>
+    <lastUpdated>20121219132100</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.4-20121219.132100-26</value>
+        <updated>20121219132100</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.4-20121219.132100-26</value>
+        <updated>20121219132100</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.4-20121219.132100-26</value>
+        <updated>20121219132100</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>javadoc</classifier>
+        <extension>jar</extension>
+        <value>1.0.4-20121219.132100-26</value>
+        <updated>20121219132100</updated>
+      </snapshotVersion>
+    </snapshotVersions>
   </versioning>
 </metadata>
