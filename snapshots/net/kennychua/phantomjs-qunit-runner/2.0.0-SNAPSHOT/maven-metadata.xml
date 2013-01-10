@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata>
+<metadata modelVersion="1.1.0">
   <groupId>net.kennychua</groupId>
   <artifactId>phantomjs-qunit-runner</artifactId>
   <version>2.0.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <buildNumber>8</buildNumber>
+      <timestamp>20130110.095449</timestamp>
+      <buildNumber>9</buildNumber>
     </snapshot>
-    <lastUpdated>20121213103814</lastUpdated>
+    <lastUpdated>20130110095449</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>2.0.0-20130110.095449-9</value>
+        <updated>20130110095449</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.0-20130110.095449-9</value>
+        <updated>20130110095449</updated>
+      </snapshotVersion>
+    </snapshotVersions>
   </versioning>
 </metadata>

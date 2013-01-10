@@ -2,12 +2,11 @@
 <metadata>
   <groupId>net.kennychua</groupId>
   <artifactId>phantomjs-qunit-runner</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
   <versioning>
     <latest>2.0.0-SNAPSHOT</latest>
     <versions>
       <version>2.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20121213103814</lastUpdated>
+    <lastUpdated>20130110095450</lastUpdated>
   </versioning>
 </metadata>
