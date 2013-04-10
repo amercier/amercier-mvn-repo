@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130215.185127-1.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130220.155208-2.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130220.164902-3.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130220.165556-4.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130220.181034-5.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130220.183452-6.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130220.184250-7.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130221.113842-8.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130221.140758-9.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130221.142505-10.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130225.132729-11.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130225.143204-12.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130226.104204-13.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130227.145051-14.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130308.084020-15.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130308.173451-16.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130312.132444-17.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130403.154348-18.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130403.154634-19.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130408.144414-20.jar"/>
+	<classpathentry kind="lib" path="snapshots/com/github/amercier/selenese-maven-plugin/1.0.4-SNAPSHOT/selenese-maven-plugin-1.0.4-20130408.144805-21.jar"/>
+	<classpathentry kind="lib" path="snapshots/net/jsourcerer/webdriver/JSErrorCollector/0.4/JSErrorCollector-0.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="snapshots/net/jsourcerer/webdriver/JSErrorCollector/0.4/JSErrorCollector-0.4-sources.jar"/>
+	<classpathentry kind="lib" path="snapshots/net/jsourcerer/webdriver/JSErrorCollector/0.4/JSErrorCollector-0.4.jar"/>
+	<classpathentry kind="lib" path="snapshots/net/kennychua/phantomjs-qunit-runner/2.0.0-SNAPSHOT/phantomjs-qunit-runner-2.0.0-20130110.095449-9.jar"/>
+	<classpathentry kind="lib" path="snapshots/net/kennychua/phantomjs-qunit-runner/2.0.0-SNAPSHOT/phantomjs-qunit-runner-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
